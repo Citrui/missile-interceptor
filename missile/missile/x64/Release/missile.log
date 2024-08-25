@@ -1,0 +1,99 @@
+﻿  simulation.cpp
+  Defining YAML_CPP_API for DLL import
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\parser.h(85,28): warning C4251: “YAML::Parser::m_pScanner”:“std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>”需要有 dll 接口以供“YAML::Parser”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      参见“std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\parser.h(86,31): warning C4251: “YAML::Parser::m_pDirectives”:“std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>”需要有 dll 接口以供“YAML::Parser”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      参见“std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\binary.h(65,30): warning C4251: “YAML::Binary::m_data”:“std::vector<unsigned char,std::allocator<unsigned char>>”需要有 dll 接口以供“YAML::Binary”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      参见“std::vector<unsigned char,std::allocator<unsigned char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: “YAML::ostream_wrapper::m_buffer”:“std::vector<char,std::allocator<char>>”需要有 dll 接口以供“YAML::ostream_wrapper”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      参见“std::vector<char,std::allocator<char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\emitter.h(132,33): warning C4251: “YAML::Emitter::m_pState”:“std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>”需要有 dll 接口以供“YAML::Emitter”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      参见“std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\exceptions.h(153,44): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 class“YAML::Exception”的基
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdexcept(100,19):
+      参见“std::runtime_error”的声明
+      D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\exceptions.h(153,20):
+      参见“YAML::Exception”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\exceptions.h(162,15): warning C4251: “YAML::Exception::msg”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“YAML::Exception”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\node.h(135,15): warning C4251: “YAML::Node::m_invalidKey”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“YAML::Node”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\node.h(136,40): warning C4251: “YAML::Node::m_pMemory”:“std::shared_ptr<YAML::detail::memory_holder>”需要有 dll 接口以供“YAML::Node”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+      参见“std::shared_ptr<YAML::detail::memory_holder>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: “YAML::detail::memory::m_nodes”:“std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>”需要有 dll 接口以供“YAML::detail::memory”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\set(51,7):
+      参见“std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: “YAML::detail::memory_holder::m_pMemory”:“std::shared_ptr<YAML::detail::memory>”需要有 dll 接口以供“YAML::detail::memory_holder”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1560,7):
+      参见“std::shared_ptr<YAML::detail::memory>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: “YAML::detail::node_data::m_tag”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“YAML::detail::node_data”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: “YAML::detail::node_data::m_scalar”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“YAML::detail::node_data”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: “YAML::detail::node_data::m_sequence”:“std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>”需要有 dll 接口以供“YAML::detail::node_data”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      参见“std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: “YAML::detail::node_data::m_map”:“std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>”需要有 dll 接口以供“YAML::detail::node_data”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      参见“std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>”的声明
+  
+D:\ProgramFile\vcpkg\installed\x64-windows\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: “YAML::detail::node_data::m_undefinedPairs”:“std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>”需要有 dll 接口以供“YAML::detail::node_data”的客户端使用
+  (编译源文件“simulation.cpp”)
+      D:\ProgramFile\Microsoft\VisualStudio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(755,7):
+      参见“std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>”的声明
+  
+E:\work\missile interceptor\missile\eigen-3.4.0\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“simulation.cpp”)
+  
+E:\work\missile interceptor\missile\eigen-3.4.0\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“simulation.cpp”)
+  
+E:\work\missile interceptor\missile\eigen-3.4.0\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“simulation.cpp”)
+  
+  正在生成代码
+  1 of 1728 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    46 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  missile.vcxproj -> E:\work\missile interceptor\missile\x64\Release\missile.exe

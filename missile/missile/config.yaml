@@ -1,0 +1,29 @@
+# encoding=utf-8
+
+objection:
+  MAX_RANDOM_SPEED: 5
+
+
+interceptor:
+  DELAY_TIME: "random"           # delay time of the interception missiles launching  int/random
+  DELAY_TIME_RANDOM_RANGE: [0,10]
+  SEARCHING_TIME: 1         # time of the interceptor missile searching target
+  NUM_INTERCEPTOR: 10
+  INITIAL_POSITION: [10, 10, 0]  # relative_position  km
+  TRACKING_MATHOD: "proportional_guidance"   #idel/proportional_guidance/..
+  PROPORTIONAL_GUIDANCE_P: 0.5
+  PROPORTIONAL_GUIDANCE_COMPENSATE: 0.1      #
+
+
+  SPEED_LIMIT: 4
+  ANGLE_LIMIT: 10
+  HIT_TOLERANCE: 0.2
+
+
+simulator:
+  MAX_SIM_SIZE: 20   #km
+  STEP_SIZE: 0.1
+  INITIAL_LOC: [120, 30 , 0]
+  COORDINATE: "GPS"           # cartesian/GPS
+  
+  OUTPUT_TRAJECTION_PATH: "E:\\work\\missile interceptor\\pyvisualization\\output_trajection.txt"
